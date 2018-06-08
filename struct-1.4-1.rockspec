@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package="struct"
-version="1.2-2"
+version="1.4-1"
 -- LuaDist source
 source = {
-  tag = "1.2-2",
+  tag = "1.4-1",
   url = "git://github.com/LuaDist-testing/struct.git"
 }
 -- Original source
 -- source = {
---    url = "http://www.inf.puc-rio.br/~roberto/struct/struct.c",
---    md5 = "f799fc92a66527a58abbe6339338bfd2"
+--    url = "http://www.inf.puc-rio.br/~roberto/struct/struct-0.2.tar.gz",
+--    dir = ".",
 -- }
 description = {
    summary = "A library to convert Lua values to and from C structs",
@@ -24,7 +24,7 @@ description = {
    license = "MIT/X"
 }
 dependencies = {
-   "lua >= 5.1"
+   "lua >= 5.1, < 5.3"
 }
 build = {
    type = "builtin",
